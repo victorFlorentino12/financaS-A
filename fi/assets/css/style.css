@@ -2,11 +2,14 @@
     --primario:#021859;
     --header:#04B2D9;
     --button:#0CF2DB;
+    --caixa:#0455BF;
+    --meio:#0468BF;
 }
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;  
+  font-family: 'Ubuntu', sans-serif;
 }
 body{
     background-color: var(--primario);
@@ -18,35 +21,125 @@ header{
     display: flex;
     text-align: center;
     align-items: center;
-    
+    max-height: 200px;
 }
 .logo-box{
-    width: 50%;
+    width: 44%;
     font-size: 30px;
 }
 .menu{
-    width: 50%;
+    width: 33%;
     font-size: 20px;
+    display:flex;
+    margin-left: 80px;
+    text-align: right;
 }
-.menu > a{
-    padding: 0 7px;
+a{
+    margin:0 5%;
+    text-align:right;
+    text-decoration:none;
+    font-size: 24px;
 }
 .button{
     background-color: var(--button);
-    border-radius: 10px;
+    border-radius: 15px;
     text-decoration: none;
     border: 1px solid black;
-}
+    text-align: center; 
+    padding:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+        }
 img {
     width: 100%;
 }
-
+.button:hover{
+    border: 1px solid orange;
+}
+a:hover{
+    border-bottom: 3px solid orange;
+}
+#conteudo>h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
 #conteudo{
     color: white;
-    background-color: black;
-    width: 70%;
+    background-color:var(--caixa);
+    width: 50%;
     text-align: center;
     align-items: center;
-    margin: auto;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow:5px 5px var(--button);
+
+}
+.saiba{
+    margin:5%  auto;
+    background-color: white;
+    color: black;
+    width: 25%;
+    padding:20px 23px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 20px;
     
+}
+.contrate{
+    width: 100%;
+    margin: 40px auto;
+    background-color:var(--meio);
+    text-align: center;
+    color: white;
+    padding:20px;
+
+}
+.contrate > h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.contrate-2{
+    margin: 2% auto;
+    background-color: var(--button);
+    color: black;
+    width: 10%;
+    padding:20px 23px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.section-depoimento{
+    text-align: center;
+    color: white;
+}
+.depoimentos{
+    display: flex;
+    padding:20px 0;
+    margin-right: 10px;
+
+}
+.depoimento-single{
+    background-color: var(--meio);
+    padding: 20px 10px 0 10px;
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    color:white;
+    border-radius: 20px;
+    box-shadow:5px 5px var(--button);
+}
+.rosto{
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom:15px;
+}
+.estrela{
+    max-width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.depoimento-single:hover{
+    box-shadow: none;
 }
