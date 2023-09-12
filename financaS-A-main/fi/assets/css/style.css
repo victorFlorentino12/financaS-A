@@ -156,7 +156,8 @@ a:hover{
     margin: 0 auto ;
     padding: 0 ;
 
-    text-align: center;    
+    text-align: center;
+    
  }
  .menu a{
     margin:15px auto;
@@ -169,20 +170,32 @@ a:hover{
  .depoimento-single{
     width: 70%;
     margin: 20%;
+ 
  }
+
  .quem{
     width: 100%;
     text-align: center;
+
  }
 
  .saiba{
     width: 50%;
+
  }
+
  #conteudo{
     width: 70%;
+    
+
  }
  .contrate-2{
     width: 50%;
     text-align: center;
  }
+
+ 
+ 
+
+
 }
