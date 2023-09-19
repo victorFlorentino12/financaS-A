@@ -38,6 +38,9 @@ class FormValidity {
             if(field.classList.contains('user')){
                 if(!this.validUser(field)) valid = false;
             }
+            if(field.classList.contains('password')){
+                if(!this.validPassword(field)) valid = false;
+            }
         }
     }
     validUser(field){
@@ -60,6 +63,13 @@ class FormValidity {
          return true
         
     }
+    validPassword(field){
+        const password = field.value
+        let valid = true
+        if(password.length < 6 || password.length > 12 ){
+            this.creatMistake(field, 'A senha deve conter no minimo 6 e no máximo 12 caracteres')
+            valid = false
+        }
     
     creatMistake(field, msg){
         const div = document.createElement('div')
