@@ -70,7 +70,7 @@ class FormValidity {
             this.creatMistake(field, 'A senha deve conter no minimo 6 e no máximo 12 caracteres')
             valid = false
         }
-    
+    }
     creatMistake(field, msg){
         const div = document.createElement('div')
         div.innerHTML = msg
@@ -78,4 +78,5 @@ class FormValidity {
         field.insertAdjacentElement('afterend', div)
     }
 }
+
 const validity = new FormValidity();
