@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body >
+    <header>
+        <div class="logo-box">
+            <h1 class="logo" href="index.html">Finanças S&A</h1>
+        </div><!--logo-box-->
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="moeda.html">Moedas</a>
+            <a href="sobre.html">Sobre</a>
+        </div><!--menu-->
+        <div class="button">
+                <a href="cadrastro.html">Contratar</a>
+        </div><!--button-->
+    </header>
+    <main>
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode está vazio</li>
+            <li>Usuario só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <form action="/" method="post" class="form">
+            <label>Nome</label>
+            <input type="text" class="name valid">
+            <label>Sobrenome</label>
+            <input type="text" class="last-name valid">
+            <label>CPF</label>
+            <input type="text" class="cpf valid">
+            <label>Usuario</label>
+            <input type="text" class="user valid">
+            <label>Senha</label>
+            <input type="password" class="password valid">
+            <button type="submit" class="submit">Submit</button>
+            
+            <script src="./assets/js/validaCPF.js"></script>
+            <script src="./assets/js/main.js"></script>
+
+        </form>
+    </main>
+    <section>
+        <footer class="footer">
+            <div class="direitos">
+                <p>Todos os direitos resevados</p>
+                <p>
+                    123 Rua das Flores<br>
+                    Bairro Jardim Esperança<br>
+                    Cidade Fictícia, Estado Imaginário<br>
+                    CEP: 12345-678
+                   
+                </p>
+                <img src="assets/img/instagram.png" alt="">
+                <img src="assets/img/whatsapp.png" alt="">
+                <img src="assets/img/facebook.png" alt="">
+            </div>
+            <div class="div-mapa">
+               
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.2494403070264!2d-35.87809155198427!3d-7.212360591231671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1fabeef67453%3A0xe8b345bc34aba887!2sR.%20Dr.%20Raif%20Ramalho%2C%2060%20-%20Jardim%20Tavares%2C%20Campina%20Grande%20-%20PB%2C%2058402-025!5e0!3m2!1spt-BR!2sbr!4v1694981838675!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </footer>
+</body>
+</html>

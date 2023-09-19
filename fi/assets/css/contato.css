@@ -1,0 +1,153 @@
+:root{
+    --primario:#021859;
+    --header:#04B2D9;
+    --button:#0CF2DB;
+    --caixa:#0455BF;
+    --meio:#0468BF;
+    --button-1:#2ec409;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color:var(--header) ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.logo-box{
+    width: 44%;
+    font-size: 20px;
+}
+.menu{
+    width: 33%;
+    font-size: 20px;
+    display:flex;
+    margin-left: 80px;
+    text-align: right;
+}
+a{
+    margin:0 5%;
+    text-align:right;
+    text-decoration:none;
+    font-size: 24px;
+    color:white
+}
+.button{
+    background-color: var(--button-1);
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center; 
+    padding:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+        }
+ul{
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+.button:hover{
+    border: 1px solid orange;
+}
+a:hover{
+    border-bottom: 3px solid orange;
+}
+.conteiner{
+    width: 100%;
+    margin: auto;
+}
+.valor{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    
+}
+.valor-single{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.bandeira{
+    max-height: 40px;
+    
+}
+.moeda-conteiner{
+    text-align: center;
+}
+.moeda{
+    width: 50%;
+}
+.historia{
+    padding: 30px;
+    width: 70%;
+    margin: 15px auto;
+    
+}
+.historia p{
+    margin-top: 30px;
+}
+.historia h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    background-color:var(--meio);
+    color: white;
+    padding-top: 20px;
+}
+.div-mapa{
+    width: 50%;
+}
+.mapa{
+    width:50%;
+    max-height: 300px;
+}
+.direitos{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.direitos p{
+    margin-bottom: 20px;
+}
+.direitos img{
+    max-width: 40px;
+    margin-left: 20px;
+}
+@media screen and (max-width:680px){
+  
+    header{
+        display: block;
+       padding-top: 2px;
+       margin-bottom: 50px;
+    }
+    .logo-box{
+       width: 100%;
+       margin-bottom: 15px;
+    }
+    .menu{
+       width: 100%;
+       margin: 0 auto ;
+       padding: 0 ;
+   
+       text-align: center;
+       
+    }
+    .menu a{
+       margin:15px auto;
+    }
+}

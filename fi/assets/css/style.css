@@ -4,6 +4,7 @@
     --button:#0CF2DB;
     --caixa:#0455BF;
     --meio:#0468BF;
+    --button-1:#2ec409;
 }
 *{
   padding: 0;
@@ -24,7 +25,7 @@ header{
 }
 .logo-box{
     width: 44%;
-    font-size: 30px;
+    font-size: 27px;
 }
 .menu{
     width: 33%;
@@ -38,9 +39,10 @@ a{
     text-align:right;
     text-decoration:none;
     font-size: 24px;
+    color: white;
 }
 .button{
-    background-color: var(--button);
+    background-color: var(--button-1);
     border-radius: 15px;
     text-decoration: none;
     border: 1px solid black;
@@ -86,6 +88,9 @@ a:hover{
     font-size: 20px;
     
 }
+.saiba a{
+    color: black;
+}
 .contrate{
     width: 100%;
     margin: 40px auto;
@@ -101,7 +106,7 @@ a:hover{
 }
 .contrate-2{
     margin: 2% auto;
-    background-color: var(--button);
+    background-color: white;
     color: black;
     width: 30%;
     padding:20px 23px;
@@ -109,9 +114,13 @@ a:hover{
     border: 1px solid black;
     font-size: 20px;
 }
+.contrate-2 a {
+    color: black;
+}
 .section-depoimento{
     text-align: center;
     color: white;
+    padding-bottom: 80px;
 }
 .depoimentos{
     display: flex;
@@ -142,7 +151,33 @@ a:hover{
 .depoimento-single:hover{
     box-shadow: none;
 }
-@media screen and (max-width:380px){
+.footer{
+    display: flex;
+    background-color:var(--meio);
+    color: white;
+    padding-top: 20px;
+}
+.div-mapa{
+    width: 50%;
+}
+.mapa{
+    width:50%;
+    max-height: 300px;
+}
+.direitos{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.direitos p{
+    margin-bottom: 20px;
+}
+.direitos img{
+    max-width: 40px;
+    margin-left: 20px;
+}
+@media screen and (max-width:680px){
  header{
      display: block;
     
