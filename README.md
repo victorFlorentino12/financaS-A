@@ -1,39 +1,39 @@
-# Projeto da Empresa de Finanças
+# Finance Company Project
 
-Este é um projeto de uma empresa de finanças que utiliza HTML, CSS responsivo e JavaScript.
+This is a project of a finance company that uses HTML, responsive CSS, and JavaScript.
 
-## Site
+## Website
 
 finansas.netlify.app
 
-## Recursos
+## Features
 
-- **HTML**: Utilizado para a estrutura básica do site.
-- **CSS Responsivo**: Garante que o site seja exibido corretamente em todos os dispositivos.
-- **JavaScript**: Usado para adicionar interatividade ao site.
+- **HTML**: Used for the basic structure of the site.
+- **Responsive CSS**: Ensures that the site is displayed correctly on all devices.
+- **JavaScript**: Used to add interactivity to the site.
 
-### Integração com valores das moedas no momento
+### Integration with current currency values
 
-O site tem uma seção onde fala um pouco da historia da moedas e tem a contação em tempo real delas.
+The site has a section where it talks a little about the history of currencies and has their real-time quotation.
 
-### Integração com o Google Maps
+### Integration with Google Maps
 
-O site tem uma integração com o Google Maps para mostrar a localização da empresa.
+The site has an integration with Google Maps to show the location of the company.
 
-### Formulário de Cadastro
+### Registration Form
 
-O site possui um formulário de cadastro que verifica se o CPF está correto e se todos os campos foram preenchidos. Ele também verifica se o nome contém caracteres especiais. Tudo isso é feito usando JavaScript.
+The site has a registration form that checks if the CPF is correct and if all fields have been filled out. It also checks if the name contains special characters. All of this is done using JavaScript.
 
-## Como usar
+## How to use
 
-1. Clone este repositório.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Explore o site e sinta-se à vontade para contribuir!
+1. Clone this repository.
+2. Open the `index.html` file in your browser.
+3. Explore the site and feel free to contribute!
 
-## Contribuição
+## Contribution
 
-Contribuições são sempre bem-vindas. Se você tiver alguma sugestão ou quiser contribuir, por favor, faça um fork do repositório e crie um pull request.
+Contributions are always welcome. If you have any suggestions or want to contribute, please fork the repository and create a pull request.
 
-## Imagem do site
+## Image of site
 
 ![Captura da Web_21-11-2023_121936_finansas netlify app](https://github.com/victorFlorentino12/financaS-A/assets/140027327/a15626aa-7981-4c05-9e36-ce8213c08b5b)
