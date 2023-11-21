@@ -2,11 +2,19 @@
 
 Este é um projeto de uma empresa de finanças que utiliza HTML, CSS responsivo e JavaScript.
 
+## Site
+
+finansas.netlify.app
+
 ## Recursos
 
 - **HTML**: Utilizado para a estrutura básica do site.
 - **CSS Responsivo**: Garante que o site seja exibido corretamente em todos os dispositivos.
 - **JavaScript**: Usado para adicionar interatividade ao site.
+
+### Integração com valores das moredas no momento
+
+O site tem uma seção onde fala um pouco da historia da moedas e tem a contação em tempo real delas.
 
 ### Integração com o Google Maps
 
