@@ -12,7 +12,7 @@ finansas.netlify.app
 - **CSS Responsivo**: Garante que o site seja exibido corretamente em todos os dispositivos.
 - **JavaScript**: Usado para adicionar interatividade ao site.
 
-### Integração com valores das moredas no momento
+### Integração com valores das moedas no momento
 
 O site tem uma seção onde fala um pouco da historia da moedas e tem a contação em tempo real delas.
 
