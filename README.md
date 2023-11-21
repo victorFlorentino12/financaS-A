@@ -34,6 +34,6 @@ O site possui um formulário de cadastro que verifica se o CPF está correto e s
 
 Contribuições são sempre bem-vindas. Se você tiver alguma sugestão ou quiser contribuir, por favor, faça um fork do repositório e crie um pull request.
 
-## Licença
+## Imagem do site
 
-Este projeto está licenciado sob a licença MIT.
+![image](https://github.com/victorFlorentino12/financaS-A/assets/140027327/bdf26d1f-91ac-41f8-80f5-83c1e461a39a)
