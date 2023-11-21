@@ -36,4 +36,4 @@ Contribuições são sempre bem-vindas. Se você tiver alguma sugestão ou quise
 
 ## Imagem do site
 
-![image](https://github.com/victorFlorentino12/financaS-A/assets/140027327/bdf26d1f-91ac-41f8-80f5-83c1e461a39a)
+![Captura da Web_21-11-2023_121936_finansas netlify app](https://github.com/victorFlorentino12/financaS-A/assets/140027327/a15626aa-7981-4c05-9e36-ce8213c08b5b)
